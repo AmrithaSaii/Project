@@ -1,0 +1,58 @@
+.homepage {
+    text-align: center;
+  }
+
+  .homepage {
+    
+    text-align: center;
+    background-image: url('/public/images/Home.jpg'); /* Update the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 100vh; /* Ensures the background covers the full viewport height */
+  }
+
+  .homepage-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+ 
+  
+  .homepage-header button {
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:white;
+    border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    color: #282c34;
+    transition: background-color 0.3s;
+  }
+  
+  .homepage-header button:hover {
+
+    background-color:rgb(225, 222, 222);
+    transform: scale(1.05);
+  }
+
+
+  .homepage-header button a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: #282c34;
+    transition: background-color 0.3s;
+  }
